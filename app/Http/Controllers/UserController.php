@@ -29,7 +29,7 @@ public function CreateUser(Request $request)
             'email' => $request->email,
             'password' => Hash::make($request->password),
             'status' => 1,
-            // changes
+            // changes11
         ]);
         
         if ($user) {
